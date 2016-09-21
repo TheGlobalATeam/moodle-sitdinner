@@ -52,7 +52,7 @@ class block_sitdinner extends block_base {
 
 		$tagNameEnd = "dishes__week-link";
 		$tagPosEnd = strpos ($data, $tagNameEnd);
-		$tagPosEnd -= strlen($tagNameEnd) - 10;//-10 for removing rest of tag
+		$tagPosEnd -= strlen($tagNameEnd) - 7;//-7 for removing rest of tag
 
 		$subPart = substr($data, $tagPosStart, $tagPosEnd - $tagPosStart);
 
